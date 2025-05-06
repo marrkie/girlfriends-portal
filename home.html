@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Your Girlfriend</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Hamburger Menu (for mobile) -->
+    <div class="menu-btn" onclick="toggleSidebar()">☰</div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <h2>💖 Menu</h2>
+        <ul>
+        </ul>
+        <div class="magic-options">
+            <a href="#" class="magic-btn">💌 Daily Love Note</a>
+            <a href="#" class="magic-btn">📷 Photo Gallery</a>
+            <a href="#" class="magic-btn">📝 Love To-Do List</a>
+            <a href="#" class="magic-btn">🎵 Our Song</a>
+            <a href="#" class="magic-btn">🎮 Games</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="home-container">
+            <h1>Hi Love! 💕</h1>
+            <p>Welcome to your sweet corner of the internet 😘</p>
+
+            <div class="options">
+                <div class="card">
+                    <h3>💌 Daily Love Note</h3>
+                    <p>You’re my favorite notification every day. 💖</p>
+                </div>
+
+                <div class="card">
+                    <h3>📷 Photo Gallery</h3>
+                    <p><a href="#">Click to see our memories</a></p>
+                </div>
+
+                <div class="card">
+                    <h3>📝 Love To-Do List</h3>
+                    <ul>
+                        <li>Send a cute message 😘</li>
+                        <li>Plan next date 💑</li>
+                        <li>Watch our favorite movie 🎬</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logout Button (Positioned Top-Right) -->
+    <button class="logout-btn" onclick="window.location.href='login.html'">🚪 Logout</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container,
+.home-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff69b4;
+    color: white;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff1493;
+}
+
+.options {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffe6f0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.magic-nav {
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.magic-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.magic-nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.magic-nav li a:hover {
+    color: #fff4f4;
+    transform: scale(1.1);
+}
+
+
+/* Push the page content down */
+
+.home-container {
+    margin-top: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    width: 220px;
+    background: linear-gradient(180deg, #ff9a9e, #fad0c4);
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main content */
+
+.main-content {
+    margin-left: 240px;
+    padding: 30px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.options {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffe6f0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    transition: margin-left 0.3s ease;
+}
+
+
+/* Hamburger Menu (for mobile) */
+
+.menu-btn {
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #ff9a9e;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-btn:hover {
+    background: #ff1493;
+}
+
+
+/* Sidebar */
+
+
+/* General Styles */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    transition: margin-left 0.3s ease;
+}
+
+
+/* Hamburger Menu (for mobile) */
+
+.menu-btn {
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #ff9a9e;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-btn:hover {
+    background: #ff1493;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    /* Initially hidden */
+    background: linear-gradient(180deg, #ff9a9e, #fad0c4);
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar .close-btn {
+    font-size: 30px;
+    color: white;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.sidebar .close-btn:hover {
+    color: #ff1493;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Magic Buttons */
+
+.magic-options {
+    margin-top: 40px;
+}
+
+.magic-btn {
+    display: block;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #ff1493;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.magic-btn:hover {
+    background-color: #ff63a5;
+}
+
+
+/* Main Content */
+
+.main-content {
+    margin-left: 0;
+    padding: 30px;
+    transition: margin-left 0.3s ease;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.options {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffe6f0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Logout Button - Position at Top-Right */
+
+.logout-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1002;
+    /* Ensure the button stays above all content */
+}
+
+.logout-btn:hover {
+    background-color: #ff63a5;
+}
